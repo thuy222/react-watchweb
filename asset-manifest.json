@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/react-watchweb/static/css/main.a786b811.chunk.css",
+    "main.js": "/react-watchweb/static/js/main.79bf0b69.chunk.js",
+    "main.js.map": "/react-watchweb/static/js/main.79bf0b69.chunk.js.map",
+    "runtime-main.js": "/react-watchweb/static/js/runtime-main.a3802ea7.js",
+    "runtime-main.js.map": "/react-watchweb/static/js/runtime-main.a3802ea7.js.map",
+    "static/css/2.112b5583.chunk.css": "/react-watchweb/static/css/2.112b5583.chunk.css",
+    "static/js/2.62eb031e.chunk.js": "/react-watchweb/static/js/2.62eb031e.chunk.js",
+    "static/js/2.62eb031e.chunk.js.map": "/react-watchweb/static/js/2.62eb031e.chunk.js.map",
+    "index.html": "/react-watchweb/index.html",
+    "static/css/2.112b5583.chunk.css.map": "/react-watchweb/static/css/2.112b5583.chunk.css.map",
+    "static/css/main.a786b811.chunk.css.map": "/react-watchweb/static/css/main.a786b811.chunk.css.map",
+    "static/js/2.62eb031e.chunk.js.LICENSE.txt": "/react-watchweb/static/js/2.62eb031e.chunk.js.LICENSE.txt",
+    "static/media/slick-theme.css": "/react-watchweb/static/media/slick.c94f7671.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a3802ea7.js",
+    "static/css/2.112b5583.chunk.css",
+    "static/js/2.62eb031e.chunk.js",
+    "static/css/main.a786b811.chunk.css",
+    "static/js/main.79bf0b69.chunk.js"
+  ]
+}

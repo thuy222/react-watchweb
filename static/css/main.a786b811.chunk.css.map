@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/App.css"],"names":[],"mappings":"AAAA,KACI,iCACJ,CAEA,EACI,SAAU,CACV,QACJ,CAEA,KACI,iBACJ,CAEA,EACI,oBACJ","file":"main.a786b811.chunk.css","sourcesContent":["html {\n    font-family: \"Urbanist\", sans-serif;\n}\n\n* {\n    padding: 0;\n    margin: 0;\n}\n\nbody {\n    overflow-x: hidden;\n}\n\na {\n    text-decoration: none;\n}"]}
