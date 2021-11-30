@@ -16,13 +16,22 @@ const ImgSlider = () => {
   return (
     <Carousel {...settings}>
       <Wrap>
-        <img src="image/slider-1.jpg" alt="slider1" />
+        <img
+          src="https://file.hstatic.net/1000269795/file/he_thong_dong_ho_chinh_hang_4b12972bb3a3490c844cb126791e0b6b.jpg"
+          alt="slider1"
+        />
       </Wrap>
       <Wrap>
-        <img src="image/slider-2.jpg" alt="slider2" />
+        <img
+          src="https://file.hstatic.net/1000269795/file/khach_hang_797e389e3da144a3970feadbec426f43.jpg"
+          alt="slider2"
+        />
       </Wrap>
       <Wrap>
-        <img src="image/slider-3.jpg" alt="slider3" />
+        <img
+          src="https://file.hstatic.net/1000269795/file/ky_thuat_vien_807ade7e5d9c488495b82d0053eeb6e4.jpg"
+          alt="slider3"
+        />
       </Wrap>
     </Carousel>
   );
