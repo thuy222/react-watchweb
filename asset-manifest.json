@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-watchweb/static/css/main.a786b811.chunk.css",
-    "main.js": "/react-watchweb/static/js/main.a25389c4.chunk.js",
-    "main.js.map": "/react-watchweb/static/js/main.a25389c4.chunk.js.map",
+    "main.js": "/react-watchweb/static/js/main.80237345.chunk.js",
+    "main.js.map": "/react-watchweb/static/js/main.80237345.chunk.js.map",
     "runtime-main.js": "/react-watchweb/static/js/runtime-main.a3802ea7.js",
     "runtime-main.js.map": "/react-watchweb/static/js/runtime-main.a3802ea7.js.map",
     "static/css/2.112b5583.chunk.css": "/react-watchweb/static/css/2.112b5583.chunk.css",
@@ -19,6 +19,6 @@
     "static/css/2.112b5583.chunk.css",
     "static/js/2.62eb031e.chunk.js",
     "static/css/main.a786b811.chunk.css",
-    "static/js/main.a25389c4.chunk.js"
+    "static/js/main.80237345.chunk.js"
   ]
 }
