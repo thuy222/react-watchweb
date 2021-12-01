@@ -31,6 +31,10 @@ const Container = styled.div`
     min-width: 180px;
     height: 250px;
   }
+  @media (max-width: 600px) {
+    display: flex;
+    flex-direction: row;
+  }
 `;
 
 const Image = styled.img`
@@ -46,6 +50,9 @@ const Image = styled.img`
 
   @media (max-width: 768px) {
     height: 50%;
+  }
+  @media (max-width: 600px) {
+    width: 100%;
   }
 `;
 const Info = styled.div`

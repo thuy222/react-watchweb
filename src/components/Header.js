@@ -10,14 +10,20 @@ const Header = () => {
     <Container>
       <Link to="/">
         <Logo>
-          <img src="image/nav-logo.png" alt="logo" />
+          <img
+            src="http://file.hstatic.net/1000269795/file/logo_dong_ho_chinh_hang.jpg"
+            alt="logo"
+          />
         </Logo>
       </Link>
       <Search>
         <input type="search" placeholder="Nhập mã sản phẩm..." />
       </Search>
       <Contact>
-        <img src="image/nav-phone.png" alt="" />
+        <img
+          src="https://theme.hstatic.net/1000269795/1000766647/14/tongdai-header-phone.png?v=377"
+          alt=""
+        />
       </Contact>
       <Link to="/register">
         <Register>ĐĂNG KÍ</Register>
@@ -102,6 +108,9 @@ const Register = styled.div`
   cursor: pointer;
   margin-left: 15px;
   color: white;
+  @media (max-width: 600px) {
+    display: none;
+  }
 `;
 const Signin = styled.div`
   font-size: 14px;
@@ -109,4 +118,7 @@ const Signin = styled.div`
   margin-left: 15px;
   margin-right: 15px;
   color: white;
+  @media (max-width: 600px) {
+    display: none;
+  }
 `;

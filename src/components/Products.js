@@ -24,4 +24,8 @@ const Container = styled.div`
     grid-template-columns: repeat(2, minmax(0, 1fr));
     margin-top: 20px;
   }
+  @media (max-width: 600px) {
+    padding: 10px 0;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 `;

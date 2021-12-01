@@ -83,9 +83,19 @@ const Container = styled.div``;
 const Wrapper = styled.div`
   padding: 50px;
   display: flex;
+  @media (max-width: 600px) {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    position: relative;
+  }
 `;
 const ImgContainer = styled.div`
   flex: 1;
+  @media (max-width: 600px) {
+    width: 80%;
+  }
 `;
 const Image = styled.img`
   width: 100%;
@@ -140,6 +150,9 @@ const AddContainer = styled.div`
   align-items: center;
   width: 50%;
   justify-content: space-between;
+  @media (max-width: 600px) {
+    width: 100%;
+  }
 `;
 
 const Button = styled.button`

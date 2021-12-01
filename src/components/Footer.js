@@ -62,9 +62,6 @@ const Footer = () => {
           <FaMailBulk style={{ marginRight: "10px" }} />{" "}
           hotro@donghochinhhang.com
         </ContactItem>
-        <ContactItem>
-          <Payment src="image/payment.PNG" />
-        </ContactItem>
       </Right>
     </Container>
   );
@@ -74,12 +71,19 @@ export default Footer;
 
 const Container = styled.div`
   display: flex;
+  @media (max-width: 600px) {
+    display: flex;
+    flex-direction: row;
+  }
 `;
 const Left = styled.div`
   flex: 1;
   display: flex;
   flex-direction: column;
   padding: 20px;
+  @media (max-width: 600px) {
+    display: none;
+  }
 `;
 const Logo = styled.h3`
   font-size: 30px;
@@ -106,6 +110,9 @@ const SocialIcon = styled.div`
 const Center = styled.div`
   flex: 1;
   padding: 20px;
+  @media (max-width: 600px) {
+    display: none;
+  }
 `;
 const Title = styled.h3`
   margin-bottom: 30px;
@@ -130,7 +137,7 @@ const Right = styled.div`
 const ContactItem = styled.div`
   margin-bottom: 20px;
   display: flex;
-  align-items: centẻ;
+  align-items: center;
 `;
 const Payment = styled.img`
   width: 50%;

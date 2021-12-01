@@ -50,6 +50,9 @@ const Carousel = styled(Slider)`
   ul li.slick-active button:before {
     color: pink;
   }
+  @media (max-width: 600px) {
+    margin: 0;
+  }
 `;
 
 const Wrap = styled.div`

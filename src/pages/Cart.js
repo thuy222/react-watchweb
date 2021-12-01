@@ -7,6 +7,7 @@ import { Link } from "react-router-dom";
 
 function Cart() {
   const [{ cart }] = useStateValue();
+
   return (
     <Container>
       <Wrapper>
@@ -15,9 +16,7 @@ function Cart() {
           <Link to="/">
             <TopButton>TIẾP TỤC ĐẶT HÀNG</TopButton>
           </Link>
-          <TopTexts>
-            <TopText>Tổng tiền: {cart?.length}</TopText>
-          </TopTexts>
+
           <TopButton type="filled">THANH TOÁN</TopButton>
         </Top>
         {cart.map((item) => (

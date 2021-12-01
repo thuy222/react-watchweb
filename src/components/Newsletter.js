@@ -28,15 +28,25 @@ const Container = styled.div`
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  @media (max-width: 600px) {
+    margin: 0;
+    height: 30vh;
+  }
 `;
 const Title = styled.h3`
   font-size: 40px;
   margin-bottom: 20px;
+  @media (max-width: 600px) {
+    font-size: 25px;
+  }
 `;
 const Description = styled.div`
   font-size: 24px;
   font-weight: 300;
   margin-bottom: 20px;
+  @media (max-width: 600px) {
+    font-size: 16px;
+  }
 `;
 const InputContainer = styled.div`
   width: 50%;
